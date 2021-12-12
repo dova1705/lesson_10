@@ -1,0 +1,125 @@
+/* &display=swap&subset=cyrillic-ext */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+	font-family: "roboto";
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ------------------------------ */
+.someblock{
+	margin: 0 0 120px 0;
+	padding: 50px;
+	font-size: 20px;
+	color: #fff;
+	background: rgb(25, 211, 96);
+}
+.our-impact{
+	width: 1440px;
+	background: #29C3BE url(../img/Blob\ 2.svg) 640px -120px no-repeat;
+	padding: 106px 0 0 222px;
+	color: #FFF;
+}
+.impact-our_margin{
+	margin: 0 auto;
+}
+.our-impact__header{
+	width: 411px;
+	display: inline-block;
+	margin: 0 0 85px 0;
+}
+.header-item__sub-title{
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	background: url(../img/ikon.svg) 0 0 no-repeat;
+	padding: 2px 0 0 30px;
+	margin: 0 0 32px 0;
+}
+.header-item__title{
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+}
+.our-impact__img{
+	border-radius: 42px;
+	margin: -175px 0 0 99px;
+}
+.items-our-impact_margin div:not(:last-child) {
+	margin: 0 24px 0 0;
+}
+.items-our-impact__item{
+	width: 237px;
+	display: inline-block;
+	margin: 0 0 212px 0;
+}
+.items-our-impact__item_margin{
+	margin: 0 0 212px 0; /*не срабатывает???*/
+}
+.items-our-impact__icon{
+	display: inline-block;
+}
+.items-our-impact__body{
+	display: inline-block;
+	padding: 0 0 0 11px;
+}
+.items-our-impact__title{
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 117%;
+	color: #fff;
+	padding: 0 0 3px 0;
+}
+.items-our-impact__text{
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #5D62B5;
+}
+
+
